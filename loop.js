@@ -2,7 +2,7 @@ function trackList(bestOf2024) = (
    let list = ""
 
    for (const i in bestOf2024) {
-      result += bestOf2024.tracks{items[]} // oof, how the hell am I gonna navigate this data structure? 
+      result += bestOf2024.tracks{items[{track {id}}] // oof, how the hell am I gonna navigate this data structure? 
    }
 
    return list;
@@ -3090,4 +3090,8 @@ const bestOf2024 = {
    "type" : "playlist",
    "uri" : "spotify:playlist:2kUm1ovEbXHmAbEzJpp8S2"
 }
+
+// notes consulted
+https://stackoverflow.com/questions/26686028/iterate-through-nested-javascript-objects-from-api-response
+https://dev.to/iamcymentho/demystifying-nested-data-a-guide-to-accessing-and-processing-objects-arrays-and-json-in-javascript-34im
 
