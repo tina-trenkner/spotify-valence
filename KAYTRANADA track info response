@@ -1,0 +1,23 @@
+//Sample request for KAYTRANADA's Lover/Friend via Get Track's Audio Features: https://developer.spotify.com/documentation/web-api/reference/get-audio-features
+
+
+{
+  "danceability": 0.727,
+  "energy": 0.733,
+  "key": 8,
+  "loudness": -9.81,
+  "mode": 0,
+  "speechiness": 0.215,
+  "acousticness": 0.0144,
+  "instrumentalness": 0.000415,
+  "liveness": 0.0481,
+  "valence": 0.586,
+  "tempo": 105.134,
+  "type": "audio_features",
+  "id": "5ahq8vkzMznGmfN2EVOukP",
+  "uri": "spotify:track:5ahq8vkzMznGmfN2EVOukP",
+  "track_href": "https://api.spotify.com/v1/tracks/5ahq8vkzMznGmfN2EVOukP",
+  "analysis_url": "https://api.spotify.com/v1/audio-analysis/5ahq8vkzMznGmfN2EVOukP",
+  "duration_ms": 212250,
+  "time_signature": 4
+}
